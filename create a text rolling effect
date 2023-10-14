@@ -1,0 +1,24 @@
+@keyframes cursor {
+    to{
+        border-left: 2px solid #ff7f5000;
+    }
+}
+
+@keyframes words{
+    0%,20%{
+        content:text 1;
+    }
+    21%,40%{
+        content: text 2;
+    }
+    41%,60%{
+        content: text 3;
+    }
+    61%,80%{
+        content: text 4;
+    }
+    81%,100%{
+        content: text 5;
+    }
+
+}
